@@ -1,0 +1,1932 @@
+﻿
+% Please answer 'yes' or 'no'.
+Would you like to enter the initial configuration dialog? [yes/no]: yes
+
+At any point you may enter a question mark '?' for help.
+Use ctrl-c to abort configuration dialog at any prompt.
+Default settings are in square brackets '[]'.
+
+Basic management setup configures only enough connectivity
+for management of the system, extended setup will ask you
+to configure each interface on the system
+
+Would you like to enter basic management setup? [yes/no]: yes
+Configuring global parameters:
+
+  Enter host name [Router]: Router4 
+
+  The enable secret is a password used to protect access to
+  privileged EXEC and configuration modes. This password, after
+  entered, becomes encrypted in the configuration.
+  Enter enable secret: 
+
+  The enable password is used when you do not specify an
+  enable secret password, with some older software versions, and
+  some boot images.
+
+  The virtual terminal password is used to protect
+  access to the router over a network interface.
+
+Current interface summary
+
+
+Any interface listed with OK? value "NO" does not have a valid configuration
+
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            unassigned      NO  unset  up                    up      
+FastEthernet0/1            unassigned      NO  unset  up                    down    
+Serial0/0/0                unassigned      NO  unset  down                  down    
+Serial0/0/1                unassigned      NO  unset  up                    up      
+Serial0/1/0                unassigned      NO  unset  down                  down    
+Serial0/1/1                unassigned      NO  unset  down                  down    
+
+Configuration aborted, no changes made.
+
+% There may not be enough space available to collect the complete crashinfo
+% It would be advisable to have 280755 bytes free space on flash:crashinfo
+
+
+Press RETURN to get started!
+
+
+*Feb 16 22:39:32.887: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+*Feb 16 22:39:32.891: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+*Feb 16 22:39:34.599: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Feb 16 22:39:34.599: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Feb 16 22:39:34.599: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Feb 16 22:39:34.599: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to down
+*Feb 16 22:39:34.599: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to up
+*Feb 16 22:39:34.603: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to down
+*Feb 16 22:39:34.603: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to down
+*Feb 16 22:39:34.603: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Feb 16 22:39:35.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, cha
+Router>q
+
+
+nged state to up
+*Feb 16 22:39:35.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Feb 16 22:39:35.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to down
+*Feb 16 22:39:35.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+*Feb 16 22:39:35.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/0, changed state to down
+*Feb 16 22:39:35.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/1, changed state to down
+*Feb 16 22:40:39.495: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+*Feb 16 22:40:59.291: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+*Feb 16 22:42:38.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Feb 16 22:43:06.727: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to down
+*Feb 16 22:43:07.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+*Feb 18 15:47:33.793: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+*Feb 18 15:47:45.269: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Feb 18 15:47:47.021: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+*Feb 18 15:48:26.033: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Feb 18 15:48:29.505: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+*Feb 18 16:08:52.729: %LINK-5-CHANGED: Interface Serial0/0/1, changed state to administratively down
+*Feb 18 16:08:54.489: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Feb 18 16:08:54.489: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Feb 18 16:08:54.489: %LINK-5-CHANGED: Interface Serial0/0/0, changed state to administratively down
+*Feb 18 16:08:54.493: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to administratively down
+*Feb 18 16:08:54.493: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to administratively down
+*Feb 18 16:08:55.489: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Feb 18 16:08:55.981: %IP-5-WEBINST_KILL: Terminating DNS process
+*Feb 18 16:09:02.781: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(11)XW2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 02-Jul-07 18:13 by prod_rel_team
+*Feb 18 16:09:02.793: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing a cold start
+*Feb 18 16:09:03.029: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Feb 18 16:09:03.029: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Feb 18 16:09:04.489: %SYS-6-BOOTTIME: Time taken to reboot after reload = 149482 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router>
+Router>enable
+Router#ho?
+% Unrecognized command
+Router#disable
+Router>?
+Exec commands:
+  access-enable        Create a temporary Access-List entry
+  access-profile       Apply user-profile to interface
+  clear                Reset functions
+  connect              Open a terminal connection
+  credential           load the credential info from file system
+  crypto               Encryption related commands.
+  disable              Turn off privileged commands
+  disconnect           Disconnect an existing network connection
+  dot11                IEEE 802.11 commands
+  enable               Turn on privileged commands
+  exit                 Exit from the EXEC
+  help                 Description of the interactive help system
+  lock                 Lock the terminal
+  login                Log in as a particular user
+  logout               Exit from the EXEC
+  modemui              Start a modem-like user interface
+  mrinfo               Request neighbor and version information from a
+                       multicast router
+  mstat                Show statistics after multiple multicast traceroutes
+  mtrace               Trace reverse multicast path from destination to source
+  name-connection      Name an existing network connection
+          
+Router>enable
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname Router4
+Router4(config)#enable password cisco
+Router4(config)#login
+% Incomplete command.
+
+Router4(config)#?    
+Configure commands:
+  aaa                         Authentication, Authorization and Accounting.
+  aal2-profile                Configure AAL2 profile
+  access-list                 Add an access list entry
+  alarm-interface             Configure a specific Alarm Interface Card
+  alias                       Create command alias
+  appfw                       Configure the Application Firewall policy
+  application                 Define application
+  archive                     Archive the configuration
+  arp                         Set a static ARP entry
+  ase                         Configure ASE 
+  async-bootp                 Modify system bootp parameters
+  atm                         Enable ATM SLM Statistics
+  auto                        Configure Automation
+  autoupgrade                 Auto Upgrade Manager simplifies image upgrade
+                              process
+  backhaul-session-manager    Configure Backhaul Session Manager
+  banner                      Define a login banner
+  bba-group                   Configure BBA Group
+  beep                        Configure BEEP (Blocks Extensible Exchange
+                              Protocol)
+  bfd                         BFD configuration commands
+  boot                        Modify system boot parameters
+  bridge                      Bridge Group.
+  buffers                     Adjust system buffer pool parameters
+  busy-message                Display message when connection to host fails
+  call                        Configure Call parameters
+  call-history-mib            Define call history mib parameters
+  call-manager-fallback       SRST for Cisco Call Manager fallback. For Cisco
+                              Unified Communications Manager Express
+                              configuration use the 'telephony-service' command
+  capf-server                 CAPF Server
+  carrier-id                  Name of the carrier associated with this trunk
+                              group
+  ccm-manager                 Call Manager
+  cdp                         Global CDP configuration subcommands
+  cem                         Configure a specific cem channel
+  chat-script                 Define a modem chat script
+  class-map                   Configure Class Map
+  clns                        Global CLNS configuration subcommands
+  clock                       Configure time-of-day clock
+  cns                         CNS agents
+  config-register             Define the configuration register
+  configuration               Configuration access
+  connect                     cross-connect two interfaces
+  control-plane               Configure control plane services
+  credentials                 credentials service
+  crypto                      Encryption module
+  ctl-client                  CTL Client
+  default                     Set a command to its defaults
+  default-value               Default character-bits values
+  define                      interface range macro definition
+  dial-control-mib            Define Dial Control Mib parameters
+  dial-peer                   Dial Map (Peer) configuration commands
+  dialer                      Dialer commands
+  dialer-list                 Create a dialer list entry
+  diffserv                    Differentiated Services (COPS)
+  dnsix-dmdp                  Provide DMDP service for DNSIX
+  dnsix-nat                   Provide DNSIX service for audit trails
+  do                          To run exec commands in config mode
+  dot11                       IEEE 802.11 config commands
+  dot1x                       IEEE 802.1X Global Configuration Commands
+  downward-compatible-config  Generate a configuration compatible with older
+                              software
+  dspfarm                     Enable the dspfarm service
+  dss                         Configure dss parameters
+  enable                      Modify enable password parameters
+  end                         Exit from configure mode
+          
+Router4(config)#^Z
+Router4#
+*Feb 18 16:10:20.705: %SYS-5-CONFIG_I: Configured from console by console?
+Exec commands:
+  access-enable        Create a temporary Access-List entry
+  access-profile       Apply user-profile to interface
+  access-template      Create a temporary Access-List entry
+  archive              manage archive files
+  audio-prompt         load ivr prompt
+  auto                 Exec level Automation
+  beep                 Blocks Extensible Exchange Protocol commands
+  bfe                  For manual emergency modes setting
+  calendar             Manage the hardware calendar
+  call                 Voice call
+  ccm-manager          Call Manager Application exec commands
+  cd                   Change current directory
+  cellular             cellular commands
+  clear                Reset functions
+  clock                Manage the system clock
+  cns                  CNS agents
+  configure            Enter configuration mode
+  connect              Open a terminal connection
+  copy                 Copy from one file to another
+  credential           load the credential info from file system
+  crypto               Encryption related commands.
+  ct-isdn              Run an ISDN component test command
+  debug                Debugging functions (see also 'undebug')
+  delete               Delete a file
+  dir                  List files on a filesystem
+  disable              Turn off privileged commands
+  disconnect           Disconnect an existing network connection
+  dot11                IEEE 802.11 commands
+  dot1x                IEEE 802.1X Exec Commands
+  em                   Extension Mobility Commands
+  enable               Turn on privileged commands
+  eou                  EAPoUDP
+  ephone-hunt          ephone hunt exec command
+  erase                Erase a filesystem
+  ethernet             Ethernet parameters
+  event                Event related commands
+  exit                 Exit from the EXEC
+  format               Format a filesystem
+  fsck                 Fsck a filesystem
+  help                 Description of the interactive help system
+  hms                  Host Mapper Service
+  isdn                 Run an ISDN EXEC command on an ISDN interface
+  lock                 Lock the terminal
+  login                Log in as a particular user
+  logout               Exit from the EXEC
+  microcode            microcode commands
+  mkdir                Create new directory
+  modemui              Start a modem-like user interface
+  monitor              Monitoring different system events
+  more                 Display the contents of a file
+  mpls                 MPLS commands
+  mpoa                 MPOA exec commands
+  mrinfo               Request neighbor and version information from a
+                       multicast router
+  mrm                  IP Multicast Routing Monitor Test
+  mstat                Show statistics after multiple multicast traceroutes
+  mtrace               Trace reverse multicast path from destination to source
+  name-connection      Name an existing network connection
+  no                   Disable debugging functions
+  pad                  Open a X.29 PAD connection
+  partition            Partition disk
+  ping                 Send echo messages
+  ppp                  Start IETF Point-to-Point Protocol (PPP)
+  pwd                  Display current working directory
+  radius               radius exec commands
+  redundancy           Redundancy Facility (RF) exec commands
+  release              Release a resource
+          
+Router4#line con 0
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#line con 0
+Router4(config-line)#logging synchronous
+Router4(config-line)#no shutdown
+                         ^
+% Invalid input detected at '^' marker.
+
+Router4(config-line)#no ?       
+  absolute-timeout            Set absolute timeout for line disconnection
+  access-class                Filter connections based on an IP access list
+  activation-character        Define the activation character
+  autocommand                 Automatically execute an EXEC command
+  autocommand-options         Autocommand options
+  autohangup                  Automatically hangup when last connection closes
+  autoselect                  Set line to autoselect
+  buffer-length               Set DMA buffer length
+  data-character-bits         Size of characters being handled
+  databits                    Set number of data bits per character
+  disconnect-character        Define the disconnect character
+  dispatch-character          Define the dispatch character
+  dispatch-machine            Reference a TCP dispatch state machine
+  dispatch-timeout            Set the dispatch timer
+  domain-lookup               Enable domain lookups in show commands
+  editing                     Enable command line editing
+  escape-character            Change the current line's escape character
+  exec                        Configure EXEC
+  exec-banner                 Enable the display of the EXEC banner
+  exec-character-bits         Size of characters to the command exec
+  exec-timeout                Set the EXEC timeout
+  flowcontrol                 Set the flow control
+  flush-at-activation         Clear input stream at activation
+  full-help                   Provide help to unprivileged user
+  history                     Enable and control the command history function
+  hold-character              Define the hold character
+  insecure                    Mark line as 'insecure' for LAT
+  international               Enable international 8-bit character support
+  ip                          IP options
+  ipv6                        IPv6 options
+  length                      Set number of lines on a screen
+  location                    Enter terminal location description
+  lockable                    Allow users to lock a line
+  logging                     Modify message logging facilities
+  login                       Enable password checking
+  logout-warning              Set Warning countdown for absolute timeout of
+                              line
+  modem                       Configure the Modem Control Lines
+  monitor                     Copy debug output to the current terminal line
+  motd-banner                 Enable the display of the MOTD banner
+  notify                      Inform users of output from concurrent sessions
+  ntp                         Configure NTP
+  padding                     Set padding for a specified output character
+  parity                      Set terminal parity
+  password                    Set a password
+  prc                         PRC commands
+  private                     Configuration options that user can set will
+                              remain in effect between terminal sessions
+  privilege                   Change privilege level for line
+  refuse-message              Define a refuse banner
+  rotary                      Add line to a rotary group
+  rxspeed                     Set the receive speed
+  script                      specify event related chat scripts to run on the
+                              line
+  session-disconnect-warning  Set warning countdown for session-timeout
+  session-limit               Set maximum number of sessions
+  session-timeout             Set interval for closing connection when there is
+                              no input traffic
+  special-character-bits      Size of the escape (and other special) characters
+  speed                       Set the transmit and receive speeds
+  start-character             Define the start character
+  stop-character              Define the stop character
+  stopbits                    Set async line stop bits
+  telnet                      Telnet protocol-specific configuration
+  terminal-type               Set the terminal type
+  timeout                     Timeouts for the line
+  transport                   Define transport protocols for line
+  txspeed                     Set the transmit speed
+          
+Router4(config-line)#^Z     
+Router4#l
+*Feb 18 16:11:31.313: %SYS-5-CONFIG_I: Configured from console by console
+Router4#exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router4 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+Router4>enable
+Password: 
+Router4#line ?  
+% Unrecognized command
+Router4#line conf t
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#line con 0
+Router4(config-line)#password cisco
+Router4(config-line)#loging
+                          ^
+% Invalid input detected at '^' marker.
+
+Router4(config-line)#login
+Router4(config-line)#^Z
+Router4#
+*Feb 18 16:12:36.593: %SYS-5-CONFIG_I: Configured from console by console
+Router4#line con 0
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#line con 0
+Router4(config-line)#ip address 192.168.14.1 255.255.255.0
+                        ^
+% Invalid input detected at '^' marker.
+
+Router4(config-line)#ip ?                                 
+  netmask-format  Change display of netmasks
+  tcp             TCP options
+
+Router4(config-line)#exit\
+                         ^
+% Invalid input detected at '^' marker.
+
+Router4(config-line)#exit
+Router4(config)#int f0/0                            
+Router4(config-if)#ip address 192.168.14.1 255.255.255.0
+Router4(config-if)#show ip address
+                     ^
+% Invalid input detected at '^' marker.
+
+Router4(config-if)#show ?         
+% Unrecognized command
+Router4(config-if)#show exit
+                     ^
+% Invalid input detected at '^' marker.
+
+Router4(config-if)#exit
+Router4(config)#?
+Configure commands:
+  aaa                         Authentication, Authorization and Accounting.
+  aal2-profile                Configure AAL2 profile
+  access-list                 Add an access list entry
+  alarm-interface             Configure a specific Alarm Interface Card
+  alias                       Create command alias
+  appfw                       Configure the Application Firewall policy
+  application                 Define application
+  archive                     Archive the configuration
+  arp                         Set a static ARP entry
+  ase                         Configure ASE 
+  async-bootp                 Modify system bootp parameters
+  atm                         Enable ATM SLM Statistics
+  auto                        Configure Automation
+  autoupgrade                 Auto Upgrade Manager simplifies image upgrade
+                              process
+  backhaul-session-manager    Configure Backhaul Session Manager
+  banner                      Define a login banner
+  bba-group                   Configure BBA Group
+  beep                        Configure BEEP (Blocks Extensible Exchange
+                              Protocol)
+  bfd                         BFD configuration commands
+          
+Router4(config)#show ?
+% Unrecognized command
+Router4(config)#line con 0
+Router4(config-line)#logging synchronous
+Router4(config-line)#password cisco
+Router4(config-line)#login
+Router4(config-line)#exit
+Router4(config)#line vty 0 4
+Router4(config-line)#exit
+Router4(config)#line vty ?
+  <0-988>  First Line number
+
+Router4(config)#int s0/0/1  
+Router4(config-if)#ip address 192.168.234.2 255.255.255.0
+Router4(config-if)#exit
+Router4(config)#
+
+System Bootstrap, Version 12.4(13r)T, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 2006 by cisco Systems, Inc.
+
+Initializing memory for ECC
+.
+c2811 platform with 262144 Kbytes of main memory
+Main memory is configured to 64 bit mode with ECC enabled
+
+
+Readonly ROMMON initialized
+program load complete, entry point: 0x8000f000, size: 0xcb80
+program load complete, entry point: 0x8000f000, size: 0xcb80
+
+program load complete, entry point: 0x8000f000, size: 0x2f43ca4
+Self decompressing the image : ################################################################################################################################################################################################################################################################################## [OK]
+
+Smart Init is enabled
+smart init is sizing iomem
+  ID            MEMORY_REQ                 TYPE
+0003E7          0X003DA000 C2811 Mainboard
+                0X00264050 Onboard VPN
+                0X000021B8 Onboard USB
+                0X002C29F0 public buffer pools
+                0X00211000 public particle pools
+TOTAL:          0X00B13BF8
+
+If any of the above Memory Requirements are 
+"UNKNOWN", you may be using an unsupported
+configuration or there is a software problem and
+system operation may be compromised.
+Rounded IOMEM up to: 12Mb.
+Using 4 percent iomem. [12Mb/256Mb]
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(11)XW2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 02-Jul-07 18:13 by prod_rel_team
+Image text-base: 0x400A8E28, data-base: 0x437A0000
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Installed image archive
+Cisco 2811 (revision 49.46) with 249856K/12288K bytes of memory.
+Processor board ID FTX1131F00L
+2 FastEthernet interfaces
+4 Serial(sync/async) interfaces
+1 Virtual Private Network (VPN) Module
+DRAM configuration is 64 bits wide with parity enabled.
+239K bytes of non-volatile configuration memory.
+62720K bytes of ATA CompactFlash (Read/Write)
+
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: yes
+
+At any point you may enter a question mark '?' for help.
+Use ctrl-c to abort configuration dialog at any prompt.
+Default settings are in square brackets '[]'.
+
+Basic management setup configures only enough connectivity
+for management of the system, extended setup will ask you
+to configure each interface on the system
+
+Would you like to enter basic management setup? [yes/no]: no
+
+First, would you like to see the current interface summary? [yes]: yes
+
+
+Any interface listed with OK? value "NO" does not have a valid configuration
+
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            unassigned      NO  unset  up                    up      
+FastEthernet0/1            unassigned      NO  unset  up                    down    
+Serial0/0/0                unassigned      NO  unset  down                  down    
+Serial0/0/1                unassigned      NO  unset  up                    up      
+Serial0/1/0                unassigned      NO  unset  down                  down    
+Serial0/1/1                unassigned      NO  unset  down                  down    
+
+Configuring global parameters:
+
+  Enter host name [Router]: Router4
+
+  The enable secret is a password used to protect access to
+  privileged EXEC and configuration modes. This password, after
+  entered, becomes encrypted in the configuration.
+  Enter enable secret: 
+
+  The enable password is used when you do not specify an
+  enable secret password, with some older software versions, and
+  some boot images.
+
+  The virtual terminal password is used to protect
+  access to the router over a network interface.
+
+Async lines accept incoming modems calls. If you will have
+users dialing in via modems, configure these lines.
+
+AutoSecure dialog can be started later using "auto secure" CLI
+
+Configuration aborted, no changes made.
+
+% There may not be enough space available to collect the complete crashinfo
+% It would be advisable to have 280755 bytes free space on flash:crashinfo
+
+
+Press RETURN to get started!
+
+
+*Feb 18 16:18:14.875: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+*Feb 18 16:18:14.879: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+*Feb 18 16:18:16.587: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Feb 18 16:18:16.587: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Feb 18 16:18:16.587: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Feb 18 16:18:16.587: %LINK-3-UPDOWN: Interface Serial0/0/0, changed state to down
+*Feb 18 16:18:16.591: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to up
+*Feb 18 16:18:16.591: %LINK-3-UPDOWN: Interface Serial0/1/0, changed state to down
+*Feb 18 16:18:16.591: %LINK-3-UPDOWN: Interface Serial0/1/1, changed state to down
+*Feb 18 16:18:16.591: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Feb 18 16:18:17.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, cha
+Router>
+Routenged state to up
+*Feb 18 16:18:17.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Feb 18 16:18:17.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/0, changed state to down
+*Feb 18 16:18:17.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+*Feb 18 16:18:17.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/0, changed state to down
+*Feb 18 16:18:17.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1/1, changed state to down
+*Feb 18 16:19:24.531: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(11)XW2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 02-Jul-07 18:13 by prod_rel_team
+*Feb 18 16:19:24.539: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing a cold start
+*Feb 18 16:19:24.775: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Feb 18 16:19:24.775: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Feb 18 16:19:25.599: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Feb 18 16:19:25.599: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Feb 18 16:19:25.599: %LINK-5-CHANGED: Interface Serial0/0/0, changed state to administratively down
+*Feb 18 16:19:25.599: %LINK-5-CHANGED: Interface Serial0/0/1, changed state to administratively down
+*Feb 18 16:19:25.599: %LINK-5-CHANGED: Interface Serial0/1/0, changed state to administratively down
+*Feb 18 16:19:25.599: %LINK-5-CHANGED: Interface Serial0/1/1, changed state to administratively down
+*Feb 18 16:19:26.651: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Feb 18 16:19:26.651: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+*Feb 18 16:19:28.519: %IP-5-WEBINST_KILL: Terminating DNS processr>
+Router>enable
+Router#hostname Router4
+        ^
+% Invalid input detected at '^' marker.
+
+Router#conf t          
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#hostname Router4
+Router4(config)#enable password cisco
+Router4(config)#loging
+                     ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#login 
+% Incomplete command.
+
+Router4(config)#int f0/0
+Router4(config-if)#ip address 192.168.14.1 255.255.255.0
+Router4(config-if)#no shutdown
+Router4(config-if)#
+*Feb 18 16:20:51.127: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Feb 18 16:20:52.127: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+Router4(config-if)#exit
+Router4(config)#logging sy?
+Hostname or A.B.C.D  
+
+Router4(config)#logging synchronous
+Translating "synchronous"...domain server (255.255.255.255)
+                         ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#line console 0
+Router4(config-line)#logging synchronous
+Router4(config-line)#password cisco
+Router4(config-line)#login 
+Router4(config-line)#exit
+Router4(config)#int s0/0/1
+Router4(config-if)#ip address 192.168.234.2 255.255.255.0
+Router4(config-if)#no shutdown
+Router4(config-if)#exit
+Router4(config)#
+*Feb 18 16:22:33.879: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to down
+Router4(config)#line vty 0 4
+Router4(config-line)#logging synchronous
+Router4(config-line)#password cisco
+Router4(config-line)#login
+Router4(config-line)#exit
+Router4(config)#?
+Configure commands:
+  aaa                         Authentication, Authorization and Accounting.
+  aal2-profile                Configure AAL2 profile
+  access-list                 Add an access list entry
+  alarm-interface             Configure a specific Alarm Interface Card
+  alias                       Create command alias
+  appfw                       Configure the Application Firewall policy
+  application                 Define application
+  archive                     Archive the configuration
+  arp                         Set a static ARP entry
+  ase                         Configure ASE 
+  async-bootp                 Modify system bootp parameters
+  atm                         Enable ATM SLM Statistics
+  auto                        Configure Automation
+  autoupgrade                 Auto Upgrade Manager simplifies image upgrade
+                              process
+  backhaul-session-manager    Configure Backhaul Session Manager
+  banner                      Define a login banner
+  bba-group                   Configure BBA Group
+  beep                        Configure BEEP (Blocks Extensible Exchange
+                              Protocol)
+  bfd                         BFD configuration commands
+  boot                        Modify system boot parameters
+  bridge                      Bridge Group.
+  buffers                     Adjust system buffer pool parameters
+  busy-message                Display message when connection to host fails
+  call                        Configure Call parameters
+  call-history-mib            Define call history mib parameters
+  call-manager-fallback       SRST for Cisco Call Manager fallback. For Cisco
+                              Unified Communications Manager Express
+                              configuration use the 'telephony-service' command
+  capf-server                 CAPF Server
+  carrier-id                  Name of the carrier associated with this trunk
+                              group
+  ccm-manager                 Call Manager
+  cdp                         Global CDP configuration subcommands
+  cem                         Configure a specific cem channel
+  chat-script                 Define a modem chat script
+  class-map                   Configure Class Map
+  clns                        Global CLNS configuration subcommands
+  clock                       Configure time-of-day clock
+  cns                         CNS agents
+  config-register             Define the configuration register
+  configuration               Configuration access
+  connect                     cross-connect two interfaces
+          
+Router4(config)#copy running-config startup-config
+                  ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#^Z
+Router4#
+*Feb 18 16:25:18.451: %SYS-5-CONFIG_I: Configured from console by console
+Router4#copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+Router4#show ip interface 
+*Feb 18 16:25:42.639: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to up
+*Feb 18 16:25:43.639: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+Router4#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.14.1    YES manual up                    up      
+FastEthernet0/1            unassigned      YES unset  administratively down down    
+Serial0/0/0                unassigned      YES unset  administratively down down    
+Serial0/0/1                192.168.234.2   YES manual up                    up      
+Serial0/1/0                unassigned      YES unset  administratively down down    
+Serial0/1/1                unassigned      YES unset  administratively down down    
+Router4#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+C    192.168.14.0/24 is directly connected, FastEthernet0/0
+C    192.168.234.0/24 is directly connected, Serial0/0/1
+Router4#ping 192.168.14.14
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.14.14, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#int s0/0/1
+Router4(config-if)#no shutdown
+Router4(config-if)#exit
+Router4(config)#int f0/0 
+Router4(config-if)#no shutdown
+Router4(config-if)#exit
+Router4(config)#^Z
+Router4#show i
+*Feb 18 16:30:20.767: %SYS-5-CONFIG_I: Configured from console by console
+Router4#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.14.1    YES manual up                    up      
+FastEthernet0/1            unassigned      YES unset  administratively down down    
+Serial0/0/0                unassigned      YES unset  administratively down down    
+Serial0/0/1                192.168.234.2   YES manual up                    up      
+Serial0/1/0                unassigned      YES unset  administratively down down    
+Serial0/1/1                unassigned      YES unset  administratively down down    
+Router4#con f            
+Translating "f"...domain server (255.255.255.255)
+
+Translating "f"...domain server (255.255.255.255)
+ (255.255.255.255)
+Translating "f"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+Router4#^Z
+Router4#
+Router4#^Z
+Router4#
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#ping ?
+% Unrecognized command
+Router4(config)#^Z   
+Router4#pi
+*Feb 18 16:33:30.463: %SYS-5-CONFIG_I: Configured from console by console
+Router4#ping ?
+  WORD      Ping destination address or hostname
+  clns      CLNS echo
+  ethernet  Ethernet echo
+  ip        IP echo
+  ipv6      IPv6 echo
+  mpls      MPLS echo
+  srb       srb echo
+  tag       Tag encapsulated IP echo
+  <cr>
+
+Router4#ping ping 192.168.234.1
+
+Translating "ping"...domain server (255.255.255.255)
+                  ^
+% Invalid input detected at '^' marker.
+
+Router4#ping 192.168.234.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.234.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router4#ping 192.168.234.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.234.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router4#show run                          
+Building configuration...
+
+Current configuration : 1100 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router4
+!
+boot-start-marker
+boot-end-marker
+!
+enable password cisco
+!
+no aaa new-model
+!
+!
+!
+ip cef
+!
+!
+!
+          
+Router4#show run
+Building configuration...
+
+Current configuration : 1100 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router4
+!
+boot-start-marker
+boot-end-marker
+!
+enable password cisco
+!
+no aaa new-model
+!
+!
+!
+ip cef
+!
+!
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+voice-card 0
+ no dspfarm
+!
+!
+!
+!         
+!
+!
+!
+archive
+ log config
+ hidekeys
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.168.14.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!         
+interface Serial0/0/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/0/1
+ ip address 192.168.234.2 255.255.255.0
+!
+interface Serial0/1/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/1/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+!
+!
+ip http server
+no ip http secure-server
+          
+Router4#show controller
+Interface FastEthernet0/0
+Hardware is MV96340
+HWIDB: 46F45184, INSTANCE: 46F46234, FASTSEND: 43784A5C, MCI_INDEX: 0
+
+Aggregate MIB Counters
+----------------------
+  Rx Good Bytes: 77611                 Rx Good Frames: 889       
+  Rx Bad Bytes: 0                      Rx Bad Frames: 0         
+  Rx Broadcast Frames: 86              Rx Multicast Frames: 684       
+  Tx Good Bytes: 23959                 Tx Good Frames: 173       
+  Tx Broadcast Frames: 39              Tx Multicast Frames: 21        
+  Rx+Tx Min-64B Frames: 801            Rx+Tx 65-127B Frames: 154       
+  Rx+Tx 128-255B Frames: 19            Rx+Tx 256-511B Frames: 76        
+  Rx+Tx 512-1023B Frames: 12           Rx+Tx 1024-MaxB Frames: 0         
+  Rx Unrecog MAC Ctrl Frames: 0         
+  Rx Good FC Frames: 0                 Rx Bad FC Frames: 0         
+  Rx Undersize Frames: 0               Rx Fragment Frames: 0         
+  Rx Oversize Frames: 0                Rx Jabber Frames: 0         
+  Rx MAC Errors: 0                     Rx Bad CRCs: 0         
+  Tx Collisions: 0                     Tx Late Collisions: 0         
+
+PHY Registers
+-------------
+  Register 0x00:   1000  782D  0040  61E4  01E1  C3E1  000F  2001
+  Register 0x08:   0000  xxxx  xxxx  xxxx  xxxx  xxxx  xxxx  xxxx
+  Register 0x10:   1000  0301  0000  0000  0200  013A  0100  0000
+  Register 0x18:   003B  F51F  9F00  008A  082B  0000  80A0  000B
+  PHY Control (0x00):
+  AUTONEG_EN 
+  PHY Status (0x01):
+  AUTONEG_DONE LINK_UP 
+  Auto-Negotiation Advertisement (0x04):
+  100FD 100HD 10FD 10HD 
+  Link Partner Ability (0x05):
+  100FD 100HD 10FD 10HD 
+
+Serial Management Interface Registers (0xB4002000)
+--------------------------------------------------
+  PHYAR    = 0x00002841    SMIR     = 0x0FE1000B
+  EUDAR    = 0x00000000    EUDIDR   = 0x000000E0    EUICR    = 0x00000010
+  EUIMR    = 0x00000000    EUEAR    = 0x00000000    EUIAER   = 0x00000000
+  BAR0     = 0x00000E00    SR0      = 0x0FFF0000
+  BAR1     = 0x00000000    SR1      = 0x00000000
+  BAR2     = 0x00000000    SR2      = 0x00000000
+  BAR3     = 0x00000000    SR3      = 0x00000000
+  BAR4     = 0x00000000    SR4      = 0x00000000
+  BAR5     = 0x00000000    SR5      = 0x00000000
+  HARR0    = 0x00000000    HARR1    = 0x00000000
+  HARR2    = 0x00000000    HARR3    = 0x00000000
+  BARER    = 0x0000003E    EPAPR0   = 0x00000003    EPAPR1   = 0x00000003
+
+Port Control Registers (0xB4002400)
+-----------------------------------
+  PCR      = 0x00000000    PCER     = 0x00000000    MII      = 0x00218823
+  GMII     = 0x00000006    VLANET   = 0x00008100    MACLO    = 0x0000B908
+  MACHI    = 0x001C58F6    SDCR     = 0x01000009    DSCP0    = 0x00000000
+  DSCP1    = 0x00000000    DSCP2    = 0x00000000    DSCP3    = 0x00000000
+  DSCP4    = 0x00000000    DSCP5    = 0x00000000    DSCP6    = 0x00000000
+  PSCR     = 0x000A060B    VPT2P    = 0x00000000    PSR      = 0x00000426
+  TQCR     = 0x0000FE00    TQFPC    = 0x000000FF    PTTBRC   = 0x000003FF
+  MTU      = 0x00000006    PMTBS    = 0x0000FFFF    ICR      = 0x00000000
+  ICER     = 0x00000000    IMR      = 0xF807FFFF    IMER     = 0xFFFFFFFF
+  PRFUTR   = 0x00000008    PTFUTR   = 0x00000000    PMFSR    = 0x00000040
+  PDFC     = 0x00000000    POFC     = 0x00000000    EUIAER   = 0x00000000
+  CRDP0    = 0x0F5A9CF0    CRDP1    = 0x00000000    CRDP2    = 0x00000000
+  CRDP3    = 0x00000000    CRDP4    = 0x00000000    CRDP5    = 0x00000000
+  CRDP6    = 0x00000000    CRDP7    = 0x00000000    RQCR     = 0x0003FE01
+  TCSDP    = 0x0F5AA1A0    TCQDP0   = 0x0F5AA1A0    TCQDP1   = 0x00000000
+  TCQDP2   = 0x00000000    TCQDP3   = 0x00000000    TCQDP4   = 0x00000000
+          
+Router4#show controller s0/0/1
+Interface Serial0/0/1
+Hardware is GT96K
+DTE V.35idb at 0x46F63648, driver data structure at 0x46F6AD5C
+wic_info 0x46F6B388
+Physical Port 0, SCC Num 0
+MPSC Registers:
+MMCR_L=0x000304C0, MMCR_H=0x00000000, MPCR=0x00000100
+CHR1=0x00FE007E, CHR2=0x00000000, CHR3=0x0000064A, CHR4=0x00000000
+CHR5=0x00000000, CHR6=0x00000000, CHR7=0x00000000, CHR8=0x00000000
+CHR9=0x00000000, CHR10=0x00003008
+SDMA Registers:
+SDC=0x00002201, SDCM=0x00000080
+CRDP=0x0F644C80, CTDP=0x0F6607D0, FTDB=0x0F6607D0
+Main Routing Register=0x77770000 BRG Conf Register=0x00480000
+Rx Clk Routing Register=0x00008888 Tx Clk Routing Register=0x00003219
+GPP Registers:
+Conf=0x50055600, Io=0x50055600, Data=0xFFFFFFFB, Level=0x00000018
+TDM FPGA Registers:
+vmcr[0] = 0x00034080, vmcr[1] = 0x00038080, 
+vmcr[2] = 0x00000000, vmcr[3] = 0x00000000
+ntrcr0 = 0x00000000, ntrcr1 = 0x00000000
+tdmcr = 0x0000006A, labcr = 0x00000000, tpllr_cr = 0x00000000
+nhr = 0x66667707, isr = 0x00000202, imr = 0x00000000
+          
+Router4#show controller s0/0/1
+Interface Serial0/0/1
+Hardware is GT96K
+DTE V.35idb at 0x46F63648, driver data structure at 0x46F6AD5C
+wic_info 0x46F6B388
+Physical Port 0, SCC Num 0
+MPSC Registers:
+MMCR_L=0x000304C0, MMCR_H=0x00000000, MPCR=0x00000100
+CHR1=0x00FE007E, CHR2=0x00000000, CHR3=0x0000064A, CHR4=0x00000000
+CHR5=0x00000000, CHR6=0x00000000, CHR7=0x00000000, CHR8=0x00000000
+CHR9=0x00000000, CHR10=0x00003008
+SDMA Registers:
+SDC=0x00002201, SDCM=0x00000080
+CRDP=0x0F644CF0, CTDP=0x0F660840, FTDB=0x0F660840
+Main Routing Register=0x77770000 BRG Conf Register=0x00480000
+Rx Clk Routing Register=0x00008888 Tx Clk Routing Register=0x00003219
+GPP Registers:
+Conf=0x50055600, Io=0x50055600, Data=0xFFFFFFFB, Level=0x00000018
+TDM FPGA Registers:
+vmcr[0] = 0x00034080, vmcr[1] = 0x00038080, 
+vmcr[2] = 0x00000000, vmcr[3] = 0x00000000
+ntrcr0 = 0x00000000, ntrcr1 = 0x00000000
+tdmcr = 0x0000006A, labcr = 0x00000000, tpllr_cr = 0x00000000
+nhr = 0x66667707, isr = 0x00000202, imr = 0x00000000
+0 input aborts on receiving flag sequence
+0 throttles, 0 enables
+0 overruns
+0 transmitter underruns
+0 transmitter CTS losts
+136 rxintr, 144 txintr, 0 rxerr, 0 txerr
+271 mpsc_rx, 0 mpsc_rxerr, 0 mpsc_rlsc, 2 mpsc_rhnt, 269 mpsc_rfsc
+3 mpsc_rcsc, 0 mpsc_rovr, 0 mpsc_rcdl, 0 mpsc_rckg, 0 mpsc_bper
+0 mpsc_txerr, 102 mpsc_teidl, 0 mpsc_tudr, 0 mpsc_tctsl, 0 mpsc_tckg
+0 sdma_rx_sf, 0 sdma_rx_mfl, 0 sdma_rx_or, 0 sdma_rx_abr, 0 sdma_rx_no
+0 sdma_rx_de, 0 sdma_rx_cdl, 0 sdma_rx_ce, 0 sdma_tx_rl, 0 sdma_tx_ur, 0 sdma_tx_ctsl
+0 sdma_rx_reserr, 0 sdma_tx_reserr
+0 rx_bogus_pkts, rx_bogus_flag FALSE 
+0 sdma_tx_ur_processed
+
+tx_limited = 1(2), errata19 count1 - 0, count2 - 0
+Receive Ring 
+rxr head (12)(0x0F644D00), rxr tail (0)(0x0F644C40)
+  rmd(F644C40): nbd F644C50 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66C240
+  rmd(F644C50): nbd F644C60 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66C8A0
+  rmd(F644C60): nbd F644C70 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66CF00
+  rmd(F644C70): nbd F644C80 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66B580
+  rmd(F644C80): nbd F644C90 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66D560
+  rmd(F644C90): nbd F644CA0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F660960
+  rmd(F644CA0): nbd F644CB0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F660FC0
+  rmd(F644CB0): nbd F644CC0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F661620
+  rmd(F644CC0): nbd F644CD0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F661C80
+  rmd(F644CD0): nbd F644CE0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6622E0
+  rmd(F644CE0): nbd F644CF0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F662940
+  rmd(F644CF0): nbd F644D00 cmd_sts 80800000 buf_sz 06000000 buf_ptr F662FA0
+  rmd(F644D00): nbd F644D10 cmd_sts 80800000 buf_sz 06000000 buf_ptr F663C60
+  rmd(F644D10): nbd F644D20 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6642C0
+  rmd(F644D20): nbd F644D30 cmd_sts 80800000 buf_sz 06000000 buf_ptr F664920
+  rmd(F644D30): nbd F644D40 cmd_sts 80800000 buf_sz 06000000 buf_ptr F664F80
+  rmd(F644D40): nbd F644D50 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6655E0
+  rmd(F644D50): nbd F644D60 cmd_sts 80800000 buf_sz 06000000 buf_ptr F665C40
+  rmd(F644D60): nbd F644D70 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6662A0
+  rmd(F644D70): nbd F644D80 cmd_sts 80800000 buf_sz 06000000 buf_ptr F666900
+  rmd(F644D80): nbd F644D90 cmd_sts 80800000 buf_sz 06000000 buf_ptr F666F60
+  rmd(F644D90): nbd F644DA0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6675C0
+  rmd(F644DA0): nbd F644DB0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F667C20
+  rmd(F644DB0): nbd F644DC0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F668280
+  rmd(F644DC0): nbd F644DD0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6688E0
+  rmd(F644DD0): nbd F644DE0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F668F40
+  rmd(F644DE0): nbd F644DF0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6695A0
+  rmd(F644DF0): nbd F644E00 cmd_sts 80800000 buf_sz 06000000 buf_ptr F669C00
+  rmd(F644E00): nbd F644E10 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66A260
+  rmd(F644E10): nbd F644E20 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66A8C0
+  rmd(F644E20): nbd F644E30 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66AF20
+  rmd(F644E30): nbd F644C40 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66BBE0
+Transmit Ring 
+txr head (120)(0x0F660840), txr tail (120)(0x0F660840)
+  tmd(F6600C0): nbd F6600D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F6600D0): nbd F6600E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401614
+  tmd(F6600E0): nbd F6600F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401C54
+  tmd(F6600F0): nbd F660100 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A754
+  tmd(F660100): nbd F660110 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400994
+  tmd(F660110): nbd F660120 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6C4654
+  tmd(F660120): nbd F660130 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400C14
+  tmd(F660130): nbd F660140 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400AD4
+  tmd(F660140): nbd F660150 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AEFD4
+  tmd(F660150): nbd F660160 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFC54
+  tmd(F660160): nbd F660170 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B03D4
+  tmd(F660170): nbd F660180 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401254
+  tmd(F660180): nbd F660190 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6C5414
+  tmd(F660190): nbd F6601A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFB14
+  tmd(F6601A0): nbd F6601B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401754
+  tmd(F6601B0): nbd F6601C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B4D4
+  tmd(F6601C0): nbd F6601D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4014D4
+  tmd(F6601D0): nbd F6601E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0154
+  tmd(F6601E0): nbd F6601F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF754
+  tmd(F6601F0): nbd F660200 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F405E94
+  tmd(F660200): nbd F660210 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0014
+  tmd(F660210): nbd F660220 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400854
+  tmd(F660220): nbd F660230 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4019D4
+  tmd(F660230): nbd F660240 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401114
+  tmd(F660240): nbd F660250 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F660250): nbd F660260 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401B14
+  tmd(F660260): nbd F660270 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F406C54
+  tmd(F660270): nbd F660280 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F9094D4
+  tmd(F660280): nbd F660290 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F9099D4
+  tmd(F660290): nbd F6602A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B4D4
+  tmd(F6602A0): nbd F6602B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFED4
+  tmd(F6602B0): nbd F6602C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF614
+  tmd(F6602C0): nbd F6602D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909B14
+  tmd(F6602D0): nbd F6602E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B2C74
+  tmd(F6602E0): nbd F6602F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401ED4
+  tmd(F6602F0): nbd F660300 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AEC14
+  tmd(F660300): nbd F660310 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400E94
+  tmd(F660310): nbd F660320 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AE994
+  tmd(F660320): nbd F660330 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF114
+  tmd(F660330): nbd F660340 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F660340): nbd F660350 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B3A34
+  tmd(F660350): nbd F660360 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F644ED4
+  tmd(F660360): nbd F660370 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909614
+  tmd(F660370): nbd F660380 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A754
+  tmd(F660380): nbd F660390 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B754
+  tmd(F660390): nbd F6603A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909754
+  tmd(F6603A0): nbd F6603B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4014D4
+  tmd(F6603B0): nbd F6603C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F404D94
+  tmd(F6603C0): nbd F6603D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0854
+  tmd(F6603D0): nbd F6603E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4029D4
+  tmd(F6603E0): nbd F6603F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B55B4
+  tmd(F6603F0): nbd F660400 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F907794
+  tmd(F660400): nbd F660410 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A894
+  tmd(F660410): nbd F660420 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90C194
+  tmd(F660420): nbd F660430 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0514
+  tmd(F660430): nbd F660440 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F404094
+  tmd(F660440): nbd F660450 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF4D4
+  tmd(F660450): nbd F660460 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B1F14
+  tmd(F660460): nbd F660470 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F403D54
+  tmd(F660470): nbd F660480 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90BB14
+  tmd(F660480): nbd F660490 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400AD4
+  tmd(F660490): nbd F6604A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90AD14
+          
+Router4#show controller s0/0/1
+Interface Serial0/0/1
+Hardware is GT96K
+DTE V.35idb at 0x46F63648, driver data structure at 0x46F6AD5C
+wic_info 0x46F6B388
+Physical Port 0, SCC Num 0
+MPSC Registers:
+MMCR_L=0x000304C0, MMCR_H=0x00000000, MPCR=0x00000100
+CHR1=0x00FE007E, CHR2=0x00000000, CHR3=0x0000064A, CHR4=0x00000000
+CHR5=0x00000000, CHR6=0x00000000, CHR7=0x00000000, CHR8=0x00000000
+CHR9=0x00000000, CHR10=0x00003008
+SDMA Registers:
+SDC=0x00002201, SDCM=0x00000080
+CRDP=0x0F644D30, CTDP=0x0F660880, FTDB=0x0F660880
+Main Routing Register=0x77770000 BRG Conf Register=0x00480000
+Rx Clk Routing Register=0x00008888 Tx Clk Routing Register=0x00003219
+GPP Registers:
+Conf=0x50055600, Io=0x50055600, Data=0xFFFFFFFB, Level=0x00000018
+TDM FPGA Registers:
+vmcr[0] = 0x00034080, vmcr[1] = 0x00038080, 
+vmcr[2] = 0x00000000, vmcr[3] = 0x00000000
+ntrcr0 = 0x00000000, ntrcr1 = 0x00000000
+tdmcr = 0x0000006A, labcr = 0x00000000, tpllr_cr = 0x00000000
+nhr = 0x66667707, isr = 0x00000202, imr = 0x00000000
+          
+Router4#show controller s0/0/1
+Interface Serial0/0/1
+Hardware is GT96K
+DTE V.35idb at 0x46F63648, driver data structure at 0x46F6AD5C
+wic_info 0x46F6B388
+Physical Port 0, SCC Num 0
+MPSC Registers:
+MMCR_L=0x000304C0, MMCR_H=0x00000000, MPCR=0x00000100
+CHR1=0x00FE007E, CHR2=0x00000000, CHR3=0x0000064A, CHR4=0x00000000
+CHR5=0x00000000, CHR6=0x00000000, CHR7=0x00000000, CHR8=0x00000000
+CHR9=0x00000000, CHR10=0x00003008
+SDMA Registers:
+SDC=0x00002201, SDCM=0x00000080
+CRDP=0x0F644D40, CTDP=0x0F660880, FTDB=0x0F660880
+Main Routing Register=0x77770000 BRG Conf Register=0x00480000
+Rx Clk Routing Register=0x00008888 Tx Clk Routing Register=0x00003219
+GPP Registers:
+Conf=0x50055600, Io=0x50055600, Data=0xFFFFFFFB, Level=0x00000018
+TDM FPGA Registers:
+vmcr[0] = 0x00034080, vmcr[1] = 0x00038080, 
+vmcr[2] = 0x00000000, vmcr[3] = 0x00000000
+ntrcr0 = 0x00000000, ntrcr1 = 0x00000000
+tdmcr = 0x0000006A, labcr = 0x00000000, tpllr_cr = 0x00000000
+nhr = 0x66667707, isr = 0x00000202, imr = 0x00000000
+0 input aborts on receiving flag sequence
+0 throttles, 0 enables
+0 overruns
+0 transmitter underruns
+0 transmitter CTS losts
+140 rxintr, 149 txintr, 0 rxerr, 0 txerr
+279 mpsc_rx, 0 mpsc_rxerr, 0 mpsc_rlsc, 2 mpsc_rhnt, 277 mpsc_rfsc
+3 mpsc_rcsc, 0 mpsc_rovr, 0 mpsc_rcdl, 0 mpsc_rckg, 0 mpsc_bper
+0 mpsc_txerr, 105 mpsc_teidl, 0 mpsc_tudr, 0 mpsc_tctsl, 0 mpsc_tckg
+0 sdma_rx_sf, 0 sdma_rx_mfl, 0 sdma_rx_or, 0 sdma_rx_abr, 0 sdma_rx_no
+0 sdma_rx_de, 0 sdma_rx_cdl, 0 sdma_rx_ce, 0 sdma_tx_rl, 0 sdma_tx_ur, 0 sdma_tx_ctsl
+0 sdma_rx_reserr, 0 sdma_tx_reserr
+0 rx_bogus_pkts, rx_bogus_flag FALSE 
+0 sdma_tx_ur_processed
+
+tx_limited = 1(2), errata19 count1 - 0, count2 - 0
+Receive Ring 
+rxr head (16)(0x0F644D40), rxr tail (0)(0x0F644C40)
+  rmd(F644C40): nbd F644C50 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66C240
+  rmd(F644C50): nbd F644C60 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66C8A0
+  rmd(F644C60): nbd F644C70 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66CF00
+  rmd(F644C70): nbd F644C80 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66B580
+  rmd(F644C80): nbd F644C90 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66D560
+  rmd(F644C90): nbd F644CA0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F660960
+  rmd(F644CA0): nbd F644CB0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F660FC0
+  rmd(F644CB0): nbd F644CC0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F661620
+  rmd(F644CC0): nbd F644CD0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F661C80
+  rmd(F644CD0): nbd F644CE0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6622E0
+  rmd(F644CE0): nbd F644CF0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F662940
+  rmd(F644CF0): nbd F644D00 cmd_sts 80800000 buf_sz 06000000 buf_ptr F662FA0
+  rmd(F644D00): nbd F644D10 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66DBC0
+  rmd(F644D10): nbd F644D20 cmd_sts 80800000 buf_sz 06000000 buf_ptr F663C60
+  rmd(F644D20): nbd F644D30 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6642C0
+  rmd(F644D30): nbd F644D40 cmd_sts 80800000 buf_sz 06000000 buf_ptr F664920
+  rmd(F644D40): nbd F644D50 cmd_sts 80800000 buf_sz 06000000 buf_ptr F664F80
+  rmd(F644D50): nbd F644D60 cmd_sts 80800000 buf_sz 06000000 buf_ptr F665C40
+  rmd(F644D60): nbd F644D70 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6662A0
+  rmd(F644D70): nbd F644D80 cmd_sts 80800000 buf_sz 06000000 buf_ptr F666900
+  rmd(F644D80): nbd F644D90 cmd_sts 80800000 buf_sz 06000000 buf_ptr F666F60
+  rmd(F644D90): nbd F644DA0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6675C0
+  rmd(F644DA0): nbd F644DB0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F667C20
+  rmd(F644DB0): nbd F644DC0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F668280
+  rmd(F644DC0): nbd F644DD0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6688E0
+  rmd(F644DD0): nbd F644DE0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F668F40
+  rmd(F644DE0): nbd F644DF0 cmd_sts 80800000 buf_sz 06000000 buf_ptr F6695A0
+  rmd(F644DF0): nbd F644E00 cmd_sts 80800000 buf_sz 06000000 buf_ptr F669C00
+  rmd(F644E00): nbd F644E10 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66A260
+  rmd(F644E10): nbd F644E20 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66A8C0
+  rmd(F644E20): nbd F644E30 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66AF20
+  rmd(F644E30): nbd F644C40 cmd_sts 80800000 buf_sz 06000000 buf_ptr F66BBE0
+Transmit Ring 
+txr head (125)(0x0F660890), txr tail (125)(0x0F660890)
+  tmd(F6600C0): nbd F6600D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F6600D0): nbd F6600E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401614
+  tmd(F6600E0): nbd F6600F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401C54
+  tmd(F6600F0): nbd F660100 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A754
+  tmd(F660100): nbd F660110 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400994
+  tmd(F660110): nbd F660120 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6C4654
+  tmd(F660120): nbd F660130 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400C14
+  tmd(F660130): nbd F660140 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400AD4
+  tmd(F660140): nbd F660150 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AEFD4
+  tmd(F660150): nbd F660160 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFC54
+  tmd(F660160): nbd F660170 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B03D4
+  tmd(F660170): nbd F660180 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401254
+  tmd(F660180): nbd F660190 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6C5414
+  tmd(F660190): nbd F6601A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFB14
+  tmd(F6601A0): nbd F6601B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401754
+  tmd(F6601B0): nbd F6601C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B4D4
+  tmd(F6601C0): nbd F6601D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4014D4
+  tmd(F6601D0): nbd F6601E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0154
+  tmd(F6601E0): nbd F6601F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF754
+  tmd(F6601F0): nbd F660200 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F405E94
+  tmd(F660200): nbd F660210 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0014
+  tmd(F660210): nbd F660220 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400854
+  tmd(F660220): nbd F660230 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4019D4
+  tmd(F660230): nbd F660240 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401114
+  tmd(F660240): nbd F660250 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F660250): nbd F660260 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401B14
+  tmd(F660260): nbd F660270 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F406C54
+  tmd(F660270): nbd F660280 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F9094D4
+  tmd(F660280): nbd F660290 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F9099D4
+  tmd(F660290): nbd F6602A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B4D4
+  tmd(F6602A0): nbd F6602B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFED4
+  tmd(F6602B0): nbd F6602C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF614
+  tmd(F6602C0): nbd F6602D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909B14
+  tmd(F6602D0): nbd F6602E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B2C74
+  tmd(F6602E0): nbd F6602F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401ED4
+  tmd(F6602F0): nbd F660300 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AEC14
+  tmd(F660300): nbd F660310 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400E94
+  tmd(F660310): nbd F660320 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AE994
+  tmd(F660320): nbd F660330 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF114
+  tmd(F660330): nbd F660340 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F660340): nbd F660350 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B3A34
+  tmd(F660350): nbd F660360 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F644ED4
+  tmd(F660360): nbd F660370 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909614
+  tmd(F660370): nbd F660380 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A754
+  tmd(F660380): nbd F660390 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B754
+  tmd(F660390): nbd F6603A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909754
+  tmd(F6603A0): nbd F6603B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4014D4
+  tmd(F6603B0): nbd F6603C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F404D94
+  tmd(F6603C0): nbd F6603D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0854
+  tmd(F6603D0): nbd F6603E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4029D4
+  tmd(F6603E0): nbd F6603F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B55B4
+  tmd(F6603F0): nbd F660400 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F907794
+  tmd(F660400): nbd F660410 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A894
+  tmd(F660410): nbd F660420 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90C194
+  tmd(F660420): nbd F660430 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0514
+  tmd(F660430): nbd F660440 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F404094
+  tmd(F660440): nbd F660450 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF4D4
+  tmd(F660450): nbd F660460 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B1F14
+  tmd(F660460): nbd F660470 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F403D54
+  tmd(F660470): nbd F660480 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90BB14
+  tmd(F660480): nbd F660490 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400AD4
+  tmd(F660490): nbd F6604A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90AD14
+  tmd(F6604A0): nbd F6604B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B054
+  tmd(F6604B0): nbd F6604C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AE854
+  tmd(F6604C0): nbd F6604D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AEE94
+  tmd(F6604D0): nbd F6604E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF754
+  tmd(F6604E0): nbd F6604F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B7EF4
+  tmd(F6604F0): nbd F660500 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0014
+  tmd(F660500): nbd F660510 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F9087D4
+  tmd(F660510): nbd F660520 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4043D4
+  tmd(F660520): nbd F660530 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F402354
+  tmd(F660530): nbd F660540 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400854
+  tmd(F660540): nbd F660550 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400FD4
+  tmd(F660550): nbd F660560 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF9D4
+  tmd(F660560): nbd F660570 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF254
+  tmd(F660570): nbd F660580 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFB14
+  tmd(F660580): nbd F660590 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400494
+  tmd(F660590): nbd F6605A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400354
+  tmd(F6605A0): nbd F6605B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401614
+  tmd(F6605B0): nbd F6605C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401C54
+  tmd(F6605C0): nbd F6605D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AE714
+  tmd(F6605D0): nbd F6605E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B9A74
+  tmd(F6605E0): nbd F6605F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909894
+  tmd(F6605F0): nbd F660600 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A614
+  tmd(F660600): nbd F660610 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90A754
+  tmd(F660610): nbd F660620 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B4D4
+  tmd(F660620): nbd F660630 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B754
+  tmd(F660630): nbd F660640 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFED4
+  tmd(F660640): nbd F660650 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F4005D4
+  tmd(F660650): nbd F660660 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909754
+  tmd(F660660): nbd F660670 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909B14
+  tmd(F660670): nbd F660680 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401ED4
+  tmd(F660680): nbd F660690 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF4D4
+  tmd(F660690): nbd F6606A0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6BB5F4
+  tmd(F6606A0): nbd F6606B0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0154
+  tmd(F6606B0): nbd F6606C0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AE994
+  tmd(F6606C0): nbd F6606D0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AF394
+  tmd(F6606D0): nbd F6606E0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AFC54
+  tmd(F6606E0): nbd F6606F0 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6B0294
+  tmd(F6606F0): nbd F660700 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400FD4
+  tmd(F660700): nbd F660710 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6BCA94
+  tmd(F660710): nbd F660720 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F400494
+  tmd(F660720): nbd F660730 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401614
+  tmd(F660730): nbd F660740 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F401B14
+  tmd(F660740): nbd F660750 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6AE714
+  tmd(F660750): nbd F660760 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F909894
+  tmd(F660760): nbd F660770 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F90B394
+  tmd(F660770): nbd F660780 cmd_sts 00C30000 byt_cnt ABCDABCD buf_ptr F6BE614
+          
+Router4#show controller s0/0/1 
+Interface Serial0/0/1
+Hardware is GT96K
+DTE V.35idb at 0x46F63648, driver data structure at 0x46F6AD5C
+wic_info 0x46F6B388
+Physical Port 0, SCC Num 0
+MPSC Registers:
+MMCR_L=0x000304C0, MMCR_H=0x00000000, MPCR=0x00000100
+CHR1=0x00FE007E, CHR2=0x00000000, CHR3=0x0000064A, CHR4=0x00000000
+CHR5=0x00000000, CHR6=0x00000000, CHR7=0x00000000, CHR8=0x00000000
+CHR9=0x00000000, CHR10=0x00003008
+SDMA Registers:
+SDC=0x00002201, SDCM=0x00000080
+CRDP=0x0F644DC0, CTDP=0x0F660100, FTDB=0x0F660100
+Main Routing Register=0x77770000 BRG Conf Register=0x00480000
+Rx Clk Routing Register=0x00008888 Tx Clk Routing Register=0x00003219
+GPP Registers:
+Conf=0x50055600, Io=0x50055600, Data=0xFFFFFFFB, Level=0x00000018
+TDM FPGA Registers:
+vmcr[0] = 0x00034080, vmcr[1] = 0x00038080, 
+vmcr[2] = 0x00000000, vmcr[3] = 0x00000000
+ntrcr0 = 0x00000000, ntrcr1 = 0x00000000
+tdmcr = 0x0000006A, labcr = 0x00000000, tpllr_cr = 0x00000000
+nhr = 0x66667707, isr = 0x00000202, imr = 0x00000000
+          
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#int s0/0/1
+Router4(config-if)#clock rate 2000000
+Router4(config-if)#show controller s0/0/1
+                     ^
+% Invalid input detected at '^' marker.
+
+Router4(config-if)#exit
+Router4(config)#show controller s0/0/1
+                  ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#^Z
+Router4#show controller s0/0/1
+*Feb 18 16:43:01.403: %SYS-5-CONFIG_I: Configured from console by console
+Router4#show controller s0/0/1
+Interface Serial0/0/1
+Hardware is GT96K
+DTE V.35idb at 0x46F63648, driver data structure at 0x46F6AD5C
+wic_info 0x46F6B388
+Physical Port 0, SCC Num 0
+MPSC Registers:
+MMCR_L=0x000304C0, MMCR_H=0x00000000, MPCR=0x00000100
+CHR1=0x00FE007E, CHR2=0x00000000, CHR3=0x0000064A, CHR4=0x00000000
+CHR5=0x00000000, CHR6=0x00000000, CHR7=0x00000000, CHR8=0x00000000
+CHR9=0x00000000, CHR10=0x00003008
+SDMA Registers:
+SDC=0x00002201, SDCM=0x00000080
+CRDP=0x0F644CA0, CTDP=0x0F6601E0, FTDB=0x0F6601E0
+Main Routing Register=0x77770000 BRG Conf Register=0x00480000
+Rx Clk Routing Register=0x00008888 Tx Clk Routing Register=0x00003219
+GPP Registers:
+Conf=0x50055600, Io=0x50055600, Data=0xFFFFFFFB, Level=0x00000018
+TDM FPGA Registers:
+vmcr[0] = 0x00034080, vmcr[1] = 0x00038080, 
+vmcr[2] = 0x00000000, vmcr[3] = 0x00000000
+ntrcr0 = 0x00000000, ntrcr1 = 0x00000000
+tdmcr = 0x0000006A, labcr = 0x00000000, tpllr_cr = 0x00000000
+nhr = 0x66667707, isr = 0x00000202, imr = 0x00000000
+          
+Router4#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+C    192.168.14.0/24 is directly connected, FastEthernet0/0
+C    192.168.234.0/24 is directly connected, Serial0/0/1
+Router4#ping 192.168.234.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.234.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+Router4#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Router4 con0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+User Access Verification
+
+Password: 
+Router4>enable
+Password: 
+Router4#
+*Feb 18 17:23:57.719: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to down
+*Feb 18 17:23:58.719: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+Router4#
+*Feb 18 17:24:06.143: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to up
+*Feb 18 17:24:07.143: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+Router4#
+*Feb 18 17:26:26.223: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to down
+*Feb 18 17:26:27.223: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to down
+Router4#
+*Feb 18 17:27:36.227: %LINK-3-UPDOWN: Interface Serial0/0/1, changed state to up
+*Feb 18 17:27:37.227: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0/1, changed state to up
+Router4#show ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.14.1    YES manual up                    up      
+FastEthernet0/1            unassigned      YES unset  administratively down down    
+Serial0/0/0                unassigned      YES unset  administratively down down    
+Serial0/0/1                192.168.234.2   YES manual up                    up      
+Serial0/1/0                unassigned      YES unset  administratively down down    
+Serial0/1/1                unassigned      YES unset  administratively down down    
+Router4#ping 192.168.234.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.234.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router4#ip route 192.168.13.0 255.255.255.0 192.168.234.1
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#ip route 192.168.13.0 255.255.255.0 192.168.234.1
+Router4(config)#ping 192.168.234.1
+                 ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#^Z
+Router4#pin
+*Feb 18 17:40:15.463: %SYS-5-CONFIG_I: Configured from console by console
+Router4#ping 192.168.234.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.234.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router4#ip route 192.168.223.1 255.255.255.0 192.168.223.2
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#ip route 192.168.223.1 255.255.255.0 192.168.232.2
+%Inconsistent address and mask
+Router4(config)#ip route 192.168.223.0 255.255.255.0 192.168.232.2 
+Router4(config)#ip route 192.168.12.0 255.255.255.0 192.168.232.1
+Router4(config)#ip route 192.168.212.0 255.255.255.0 192.168.212.2
+Router4(config)#ip route 192.168.11.0 255.255.255.0 192.168.212.1
+Router4(config)#exit
+Router4#show i
+*Feb 18 17:49:45.567: %SYS-5-CONFIG_I: Configured from console by console
+Router4#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+S    192.168.13.0/24 [1/0] via 192.168.234.1
+C    192.168.14.0/24 is directly connected, FastEthernet0/0
+C    192.168.234.0/24 is directly connected, Serial0/0/1
+Router4#conf t                                            
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#no ip route 192.168.223.0 255.255.255.0 192.168.232.2 
+Router4(config)#no ip route 192.168.12.0 255.255.255.0 192.168.232.1
+Router4(config)#no ip route 192.168.212.0 255.255.255.0 192.168.212.2
+Router4(config)#no ip route 192.168.11.0 255.255.255.0 192.168.212.1
+Router4(config)#ip route 192.168.223.0 255.255.255.0 192.168.234.1
+Router4(config)#exit
+Router4#pin
+*Feb 18 17:52:44.643: %SYS-5-CONFIG_I: Configured from console by console
+Router4#ping 192.168.223.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.223.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/3/4 ms
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#ip route 192.168.12.0 255.255.255.0 192.168.223.1
+Router4(config)#ip route 192.168.212.0 255.255.255.0 192.168.223.1
+Router4(config)#ip route 192.168.11.0 255.255.255.0 192.168.212.2
+Router4(config)#exit
+Router4#ping 
+*Feb 18 17:55:16.387: %SYS-5-CONFIG_I: Configured from console by console
+Router4#ping 192.168.212.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.212.1, timeout is 2 seconds:
+U.U.U
+Success rate is 0 percent (0/5)
+Router4#ping 192.168.223.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.223.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router4#ping 192.168.212.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.212.1, timeout is 2 seconds:
+U.U.U
+Success rate is 0 percent (0/5)
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#no ip route 192.168.212.0 255.255.255.0 192.168.223.1
+Router4(config)#no ip route 192.168.11.0 255.255.255.0 192.168.212.2
+Router4(config)#ip route 192.168.212.0 255.255.255.0 192.168.223.1
+Router4(config)#ip route 192.168.11.0 255.255.255.0 192.168.212.1    
+Router4(config)#exit
+Router4#ping 
+*Feb 18 17:59:07.295: %SYS-5-CONFIG_I: Configured from console by console
+Router4#ping 192.168.212.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.212.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 4/4/4 ms
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#router rip 192.168.234.0
+                           ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#router rip network 192.168.234.0
+                           ^
+% Invalid input detected at '^' marker.
+
+Router4(config)#router rip ?                    
+  <cr>
+
+Router4(config)#router rip 
+Router4(config-router)#network 192.168.234.0
+Router4(config-router)#network 192.168.223.0
+Router4(config-router)#network 192.168.212.0
+Router4(config-router)#exit
+Router4(config)#exit
+Router4#show r
+*Feb 18 18:07:29.051: %SYS-5-CONFIG_I: Configured from console by console
+Router4#show run | include ip route
+ip route 192.168.11.0 255.255.255.0 192.168.212.1
+ip route 192.168.12.0 255.255.255.0 192.168.223.1
+ip route 192.168.13.0 255.255.255.0 192.168.234.1
+ip route 192.168.212.0 255.255.255.0 192.168.223.1
+ip route 192.168.223.0 255.255.255.0 192.168.234.1
+Router4#Router4#show run | include ip route
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#ip route 192.168.11.0 255.255.255.0 192.168.212.1
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#ip route 192.168.12.0 255.255.255.0 192.168.223.1
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#ip route 192.168.13.0 255.255.255.0 192.168.234.1
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#ip route 192.168.212.0 255.255.255.0 192.168.223.1
+         ^
+% Invalid input detected at '^' marker.
+
+Router4#ip route 192.168.223.0 255.255.255.0 192.168.234.1
+Router4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router4(config)#no ip route 192.168.11.0 255.255.255.0 192.168.212.1
+Router4(config)#no ip route 192.168.12.0 255.255.255.0 192.168.223.1
+Router4(config)#no ip route 192.168.13.0 255.255.255.0 192.168.234.1
+Router4(config)#no ip route 192.168.212.0 255.255.255.0 192.168.223.1
+Router4(config)#no ip route 192.168.223.0 255.255.255.0 192.168.234.1
+Router4(config)#exit 
+Router4#show 
+*Feb 18 18:12:23.739: %SYS-5-CONFIG_I: Configured from console by console
+Router4#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+R    192.168.12.0/24 [120/1] via 192.168.234.1, 00:00:05, Serial0/0/1
+C    192.168.14.0/24 is directly connected, FastEthernet0/0
+R    192.168.212.0/24 [120/1] via 192.168.234.1, 00:00:05, Serial0/0/1
+R    192.168.11.0/24 [120/1] via 192.168.234.1, 00:00:05, Serial0/0/1
+C    192.168.234.0/24 is directly connected, Serial0/0/1
+R    192.168.223.0/24 [120/1] via 192.168.234.1, 00:00:05, Serial0/0/1
+Router4#erase stat
+Router4#erase start
+Router4#erase startup-config 
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+Router4#
+*Feb 18 18:14:14.547: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvram
+Router4#reload
+
+System configuration has been modified. Save? [yes/no]: no
+Proceed with reload? [confirm]
+
+*Feb 18 18:14:33.363: %SYS-5-RELOAD: Reload requested  by console. Reload Reason: Reload Command.
+
+System Bootstrap, Version 12.4(13r)T, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 2006 by cisco Systems, Inc.
+
+Initializing memory for ECC
+.
+c2811 platform with 262144 Kbytes of main memory
+Main memory is configured to 64 bit mode with ECC enabled
+
+
+Readonly ROMMON initialized
+program load complete, entry point: 0x8000f000, size: 0xcb80
+program load complete, entry point: 0x8000f000, size: 0xcb80
+
+program load complete, entry point: 0x8000f000, size: 0x2f43ca4
+Self decompressing the image : ################################################################################################################################################################################################################################################################################## [OK]
+
+Smart Init is enabled
+smart init is sizing iomem
+  ID            MEMORY_REQ                 TYPE
+0003E7          0X003DA000 C2811 Mainboard
+                0X00264050 Onboard VPN
+                0X000021B8 Onboard USB
+                0X002C29F0 public buffer pools
+                0X00211000 public particle pools
+TOTAL:          0X00B13BF8
+
+If any of the above Memory Requirements are 
+"UNKNOWN", you may be using an unsupported
+configuration or there is a software problem and
+system operation may be compromised.
+Rounded IOMEM up to: 12Mb.
+Using 4 percent iomem. [12Mb/256Mb]
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, 2800 Software (C2800NM-ADVIPSERVICESK9-M), Version 12.4(11)XW2, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Mon 02-Jul-07 18:13 by prod_rel_team
+Image text-base: 0x400A8E28, data-base: 0x437A0000
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Installed image archive
+Cisco 2811 (revision 49.46) with 249856K/12288K bytes of memory.
+Processor board ID FTX1131F00L
+2 FastEthernet interfaces
+4 Serial(sync/async) interfaces
+1 Virtual Private Network (VPN) Module
+DRAM configuration is 64 bits wide with parity enabled.
+239K bytes of non-volatile configuration memory.
+62720K bytes of ATA CompactFlash (Read/Write)
+
+
+         --- System Configuration Dialog ---
